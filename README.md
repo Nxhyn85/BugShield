@@ -35,8 +35,8 @@ To run the Bug Bounty Platform, ensure the following:
 ## 3. Installation
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repo/bug-bounty-platform.git
-cd bug-bounty-platform
+git clone https://github.com/Nxhyn85/BugShield.git
+cd BugShield
 ```
 ### Step 2: Install Dependencies
 ```bash
@@ -73,8 +73,7 @@ Visit `http://localhost:8000` to access the application.
 
 ## 4. Configuration
 ### Admin User Setup
-To set up the admin user:
-Navigate to `/test` endpoint to register a new admin user with these credentials:
+A default admin user is created with the following credentials:
 - Name: Admin
 - Username: admin
 - Email: admin@localhost
@@ -137,6 +136,9 @@ The frontend uses Tailwind CSS. To modify the look and feel:
 
 ### Particles.js Integration
 Particles.js powers visual effects in specific sections of the platform. Customize the particle effects by modifying the `particles.json` file located in `public/js/particles`.
+
+# Database Design
+![database-design](https://i.ibb.co.com/kgxvnYdm/image.png)
 
 ## 8. Security
 - **Authentication**: Utilizes Laravel's authentication and session management for secure user login.
